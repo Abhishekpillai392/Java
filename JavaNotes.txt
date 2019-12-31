@@ -1,0 +1,161 @@
+Java Applications
+
+Desktop Applications     -- Abstract Window Toolkit, Swing 
+Web Applications         -- Internet is required           Servlet,JSP
+Enterprise Applications  -- 
+Mobile Applications
+
+
+==================================================
+
+       C++ Program
+==================================================
+
+int global=50;
+Class student
+{
+
+};
+
+int main()
+{
+
+	student s;
+}
+
+==================================================
+
+             Java Program
+
+==================================================
+
+Class Student
+{
+
+	public static void main(String args[])
+	{
+
+		Student s=new Student();
+	}
+}
+
+=================================================
+
+
+    Setting the Java Path 
+    a) Temporary Path Setting
+       command Prompt >  Set Path = C:\Program Files\Java\jdk1.8.0_231\bin
+
+
+    b) Permanent Pathe Setting
+       Control Panel -> System -> Advanced System Setting -> Advanced Tab ->
+       -> Environment Variable (Click) -> System Variable (Path) ->
+       -> Edit Path on writing ; C:\Program Files\Java\jdk1.8.0_231\bin
+       -> Click Ok
+
+   =========================================================================
+
+    Compiling & Running of Java Program
+    
+    a) Using Command Prompt
+    b) Using IDE (Integrated Development Environment - Eclipse)
+
+    a) Using Command Prompt
+
+       Compile Java Program:
+                            javac Filename.java   
+                            javac is a java compiler (It is a command to 
+                                                      compile Java Source File)
+       Running Java Program:
+                            java Filename
+                            java is an interpreter / JVM (Java Virtual Machine)
+                            it is used to run the Java Byte code / Class file
+
+    b) Using IDE (Integrated Development Environment - Eclipse)
+
+
+
+Data Types :
+             1)  Primitive
+             2)  Non Primitive
+
+
+             Primitive : Intergers      : byte,short,int long
+                         Floating Point : float,double
+                         Boolean        : boolean
+                         Character      : char
+
+             Non Primitive              :Arrays and String
+
+
+            Data Type can have Size in memory, Range of data type
+
+ 	    Intergers      : byte      1 byte     -128 to 127
+                             short     2 bytes    -32768 to 32767
+                             int       4 bytes
+                             long      8 bytes
+
+
+Command Line Argument : - Arguments which are passed at the time of running
+                          the program on the command prompt.
+
+
+class MyClass
+{
+	public static void main(String args[])
+	{
+		System.out.println(Integer.parseInt(args[0])+Integer.parseInt(args[1]);
+	}
+}
+
+        Compile :  javac MyClass.java
+        Run     :  java MyClass 10 20
+
+        Command line arguments are : 10, 20
+        args[0] = 10
+        args[1] = 20
+
+	Integer.parseInt(args[0]) will convert args[0] to int
+         
+        Integer :   Wrapper Class
+        parseInt :  method defined inside Integer Class, converts string to int
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
